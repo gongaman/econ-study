@@ -624,8 +624,9 @@
             document.getElementById('quiz-controls').style.display = 'flex';
             document.getElementById('quiz-next-btn').disabled = true;
             document.getElementById('quiz-content').innerHTML = '<div class="question-container"><div class="question" id="question-text"></div><div class="options" id="options"></div></div>';
-            initializeQuiz();
+            initializeQuiz(); 
         }
     </script>
 </body>
 </html>
+,
